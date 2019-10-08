@@ -1,3 +1,3 @@
-Navn : Sigurd Øvre Bjørndal
+Navn: Sigurd Øvre Bjørndal
 
-Studentnr : s333741
+Studentnr: s333741
