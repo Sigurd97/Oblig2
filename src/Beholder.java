@@ -33,4 +33,4 @@ public interface Beholder<T> extends Iterable<T> {
         return fjernet;
     }
 
-} // grensesnitt Beholder
+} /// grensesnitt Beholder

@@ -1,5 +1,6 @@
 import java.util.Iterator;
 
+
 public interface Liste<T> extends Beholder<T> {
     public boolean leggInn(T verdi);           // Nytt element bakerst
 

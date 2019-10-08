@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class DobbeltLenketListeTest {
 
-    ////// Oppgave 1 /////////////////////
+    ////// Oppgave 1 //////////////////////
     @org.junit.jupiter.api.Test
     void oppgave1() {
         int antallFeil = 0;
