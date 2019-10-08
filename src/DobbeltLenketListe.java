@@ -485,8 +485,8 @@ public class DobbeltLenketListe<T> implements Liste<T> {
 
         @Override
         public void remove() {
-            IllegalStateException e = new IllegalStateException("Kan ikke kalles paa tom liste.");
-            if (antall == 0) {
+            IllegalStateException e = new IllegalStateException();
+            if (antall == 0 || !fjernOK) {
                 throw e;
             }
             if (endringer != iteratorendringer) {
@@ -503,18 +503,13 @@ public class DobbeltLenketListe<T> implements Liste<T> {
                 hode = hode.neste;
                 hode.forrige = null;
             } else {
-                try {
-                    denne.forrige.forrige.neste = denne;
-                    denne.forrige = denne.forrige.forrige;
-                } catch(NullPointerException ex) {              //TODO: Redd for at dette gaar som "juks"
-                    throw e;                                    //TODO: Fikk feil type unntak i testen, saa bare catcher det og kaster riktig type istedet?
-                }
+                denne.forrige.forrige.neste = denne;
+                denne.forrige = denne.forrige.forrige;
             }
             iteratorendringer++;
             endringer++;
             antall--;
         }
-
     } // class DobbeltLenketListeIterator
 
     private static <T> void bytt(Liste<T> liste, int i, int j){
