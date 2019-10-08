@@ -51,9 +51,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
     private int hodeIndex;         // Hjelpevariable for konstruktoren
     private int haleIndex;
 
-    public int getEndringer() { //TODO: fjern denne.
-        return endringer;
-    }
+
     // hjelpemetode
     private Node finnNode(int indeks) throws IndexOutOfBoundsException {
 
@@ -509,7 +507,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
                     denne.forrige.forrige.neste = denne;
                     denne.forrige = denne.forrige.forrige;
                 } catch(NullPointerException ex) {              //TODO: Redd for at dette gaar som "juks"
-                    throw e;                                    //TODO: Fikk feil type unntak i testen, saa bare catcher det og kaster riktig type istedet? xD
+                    throw e;                                    //TODO: Fikk feil type unntak i testen, saa bare catcher det og kaster riktig type istedet?
                 }
             }
             iteratorendringer++;
