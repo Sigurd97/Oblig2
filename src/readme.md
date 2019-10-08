@@ -1,2 +1,2 @@
-Sigurd Øvre Bjørndal
-s333741
+Navn : Sigurd Øvre Bjørndal
+Studentnr : s333741
