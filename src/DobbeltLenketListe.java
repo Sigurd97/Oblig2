@@ -59,7 +59,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
 
         int teller;
 
-        if (indeks < (antall / 2)) {     // Leting starter ved hode og mot hoyre
+        if (indeks < (antall / 2)) {     // Starter  leting ved hode og mot hoyre
 
             Node current = hode;
             teller = 0;
