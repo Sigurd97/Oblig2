@@ -1,7 +1,7 @@
 ////////////////// class DobbeltLenketListe //////////////////////////////
 
 
-// Navn : Sigurd Øvre Bjørndal
+// Navn : Sigurd Øvre Bjørnda
 // Student nummer: s333741
 
 
