@@ -1,7 +1,8 @@
 ////////////////// class DobbeltLenketListe //////////////////////////////
 
 
-// Sigurd Øvre Bjørndal s333741
+// Navn : Sigurd Øvre Bjørndal
+// Student nummer: s333741
 
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
