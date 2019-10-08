@@ -16,9 +16,6 @@ import java.util.Iterator;
 import java.util.Objects;
 import java.util.function.Predicate;
 
-
-import java.util.*;
-
 public class DobbeltLenketListe<T> implements Liste<T> {
 
     /**
